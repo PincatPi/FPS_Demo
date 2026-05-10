@@ -41,6 +41,9 @@ Plugins/*/Intermediate/
 .DS_Store
 Thumbs.db
 
+# Claude Code 工作目录
+.claude/
+
 # 打包输出
 Packaged/
 Releases/
