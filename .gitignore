@@ -1,0 +1,46 @@
+# Visual Studio 解决方案和工程文件
+.vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.db
+*.opendb
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# Unreal Engine 生成的文件夹
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# 除了 Build 文件夹中的特定文件（如果需要的話）
+!Build/**/*.ico
+
+# 插件的生成文件
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# 崩溃日志和报告
+*.log
+*.dmp
+
+# 临时文件
+*.tmp
+*.temp
+*~
+
+# OS 生成的文件
+.DS_Store
+Thumbs.db
+
+# 打包输出
+Packaged/
+Releases/
